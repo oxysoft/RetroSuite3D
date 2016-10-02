@@ -29,7 +29,7 @@ Shader "Oxysoft/RetroPixelMax" {
 	   			fixed3 original = tex2D (_MainTex, i.uv).rgb;
 
 	   			fixed4 col = fixed4 (0,0,0,0);
-	   			fixed dist = 10.0;
+	   			fixed dist = 10000000.0;
 
 	   			for (int i = 0; i < _ColorCount; i++) {
 	   				fixed4 c = _Colors[i];

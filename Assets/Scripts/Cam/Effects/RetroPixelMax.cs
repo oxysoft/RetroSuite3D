@@ -30,10 +30,7 @@ namespace Assets.Scripts.Cam.Effects {
 		public void OnRenderImage(RenderTexture src, RenderTexture dest) {
 			if (material) {
 				material.SetInt("_ColorCount", colors.Length);
-
-				for (int i = 0; i < colors.Length; i++) {
-					material.SetColor("_Colors" + i, colors[i]);
-				}
+				material.SetColorArray("_Colors", colors);
 
 				Graphics.Blit(src, dest, material);
 			} else {
