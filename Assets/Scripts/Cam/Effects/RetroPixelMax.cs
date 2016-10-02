@@ -28,7 +28,7 @@ namespace Assets.Scripts.Cam.Effects {
 		}
 
 		public void OnRenderImage(RenderTexture src, RenderTexture dest) {
-			if (material) {
+			if (material && colors.Length > 0) {
 				material.SetInt("_ColorCount", colors.Length);
 				material.SetColorArray("_Colors", colors);
 

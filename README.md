@@ -9,6 +9,6 @@ This suite contains the following effects and shaders
 * **Resolution downsampler:** Force the final resolution to a defined resolution.
 * **Posterize effect:** Color quantization, nothing too fancy, simply linear quantization. Non-linear quantization could be nice however in the future.
 
-![Example](Media/example.png)
+![Fixed palette](Media/e1.png) ![Posterization](Media/e2.png) ![Graded palette](Media/e3.png)
 
 Open the included scene and observe how it is setup (check the scripts attached to the camera)
