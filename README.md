@@ -12,3 +12,5 @@ This suite contains the following effects and shaders
 ![Fixed palette](Media/e1.png) ![Posterization](Media/e2.png) ![Graded palette](Media/e3.png)
 
 Open the included scene and observe how it is setup (check the scripts attached to the camera)
+
+![](Media/scene.png)
